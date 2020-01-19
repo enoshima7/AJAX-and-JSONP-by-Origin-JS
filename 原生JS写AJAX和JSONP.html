@@ -37,6 +37,9 @@
             }        //JSONP发请求  
             document.body.removeChild(script1)
         })
+
+        //解决跨域资源请求问题 解决同源策略 需要使用CORS 即 Cross Origin Resource Sharing 跨域资源共享 
+        //在后台添加Header Cross-Origin-Allow-Request : 'xxx'
     </script>
 </body>
 
